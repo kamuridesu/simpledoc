@@ -36,7 +36,7 @@ Quando você executa o locust, ele vai executar por padrão na seguinte url: htt
 
 Ao abrir a dashboard do locust pela primeira vez, você vai encontrar a seguinte tela: 
 
-[print da tela]
+![print da tela](https://raw.githubusercontent.com/kamuridesu/simpledoc/main/locust/media/locust-initial-screen.png)
 
 Onde:
 - Number of users é a quantidade máxima de conexões que serão feitas com a rota.

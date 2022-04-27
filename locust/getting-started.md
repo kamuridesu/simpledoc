@@ -45,7 +45,7 @@ Onde:
 ```
 Number of users: 1000
 Spawn rate: 10
-A cada segundo, 10 usuários abre uma nova conexão e são adicionados aos usuários atuais
+A cada segundo, 10 usuários abrem uma nova conexão e são adicionados aos usuários atuais
 ```
 
 # End notes

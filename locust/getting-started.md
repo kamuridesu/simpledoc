@@ -33,7 +33,7 @@ Explicando o código:
 - Chamados o método client.get para enviar requisições para a rota / (index)
 
 
-## Reconhecendo a dashboard
+## Conhecendo a dashboard
 Quando você executa o locust, ele vai executar por padrão na seguinte url: http://localhost:8089. Para mudar a porta, basta usar --web-port __porta__.
 
 Ao abrir a dashboard do locust pela primeira vez, você vai encontrar a seguinte tela: 

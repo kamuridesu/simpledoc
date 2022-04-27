@@ -4,7 +4,7 @@
 Locust é uma ferramenta para enviar várias requisições simuiltaneas a uma ou mais rotas de modo a testar o modo como determinado endpoint lida com cargas pesadas.
 
 ## Configuração
-Tenha Python 3 e PIP instalados no sistema (1)
+Tenha Python 3 e PIP instalados no sistema [[1]](#1)
 
 Digite no terminal `sudo pip3 install locust` e aperte enter.
 
@@ -48,3 +48,11 @@ Spawn rate: 10
 A cada segundo, 10 usuários abre uma nova conexão e são adicionados aos usuários atuais
 ```
 
+# End notes
+<a id="1">[1]</a>
+Caso não tenha o Python 3 ou PIP instalado, siga as instruções abaixo:
+### Instalando Python 3 e PIP
+#### Baseados em Debian (apt)
+`$ sudo apt install python3-pip`
+#### Baseados em Arch (pacman)
+`$ sudo pacman -Sy python python-pip`

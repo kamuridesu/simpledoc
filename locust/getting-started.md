@@ -29,6 +29,8 @@ Explicando o código:
 - Depois criamos uma classe WebsiteUser que herda a classe HttpUser. Isso significa que locust vai simular requests a partir de um navagador desktop.
 - No wait_time definimos o tempo de espera entre cada requisição, nesse caso estamos usando betworrm(5, 15), isso significa que vamos enviar requições em um intervalo que varia entre 5 e 15 segundos. Tambem podemos importar `constant` para usar um intervalo constante
 - @task é um decorator para indicar que aquela função é uma task a ser executada pelo locust. Cada task é escolhida de maneira aleatória e todas tem a mesma chance de serem pegas, exceto se o parametro do decorator for passado, como: `@task(3)`, que significa que a task com esse decorator tem 3 vezes mais chance de ser escolhida.
+- É criada uma função index, que vai testar nossa rota / (index)
+- Chamados o método client.get para enviar requisições para a rota / (index)
 
 
 ## Reconhecendo a dashboard
